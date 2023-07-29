@@ -1182,10 +1182,15 @@ code[class*='language-'] {
 
 .notion-to-do-item .notion-property-checkbox {
   margin-right: 8px;
+  border: 1.3px solid var(--notion-gray);
   /* @apply w-4 h-4 border-2 */
 }
 
 .notion-property-checkbox-checked {
+  /* @apply bg-white */
+}
+
+.notion-property-checkbox-unchecked {
   /* @apply bg-white */
 }
 
