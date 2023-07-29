@@ -925,12 +925,11 @@ code[class*='language-'] {
   padding: 16px 16px 16px 12px;
   display: inline-flex;
   width: 100%;
-  border-radius: 3px;
   border-width: 1px;
   align-items: center;
   box-sizing: border-box;
   margin: 4px 0;
-  border: 1px solid var(--fg-color-0);
+  background-color: inherit;
 }
 
 .dark-mode .notion-callout {
